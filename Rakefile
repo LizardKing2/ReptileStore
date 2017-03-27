@@ -9,7 +9,7 @@ task "run" do
 
   cost_json = File.read("data/cost.json")
 
-  # call class
+  # call the Lizard-- I should change this if I want to do more reptiles..hmm
   result_json = Lizard_App.call(cost_json)
 
 end

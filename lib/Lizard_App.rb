@@ -5,5 +5,6 @@ class Lizard_App
 
       datacost = JSON.parse(cost_json)
       puts datacost.collect {|reptile_type| reptile_type.fetch('reptile_type')}
+      puts datacost.collect{|cost| cost.fetch('cost')}
   end
 end
